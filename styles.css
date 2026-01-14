@@ -1,3 +1,99 @@
 .poppins-font {
-  font-family: "Poppins";
+    font-family: "Poppins";
+}
+
+body>* {
+    margin: 0;
+    padding: 0;
+}
+
+.header-nav {
+    max-width: 1440px;
+    margin-left: 120px;
+    margin-right: 120px;
+}
+
+/* nav section */
+.nav-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.nav-header {
+    font-size: 1.5rem;
+}
+
+.nav-info {
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+    list-style: none;
+    gap: 20px;
+}
+
+.nav-info li a {
+    text-decoration: none;
+    color: rgba(58, 58, 58, 1);
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.nav-info img {
+    cursor: pointer;
+}
+
+
+
+/* journey-section */
+
+.journey-section {
+    display: flex;
+    align-items: center;
+    margin-top: 80px;
+    gap: 130px;
+}
+
+.btn {
+    gap: 10px;
+    padding: 10px 24px;
+    background: rgba(224, 44, 109, 1);
+    color: rgba(255, 255, 255, 1);
+    width: 120px;
+    border-radius: 41px;
+    cursor: pointer;
+}
+
+.btn:hover{
+    color: rgb(225, 223, 223);
+    background: rgb(31, 1, 1);
+}
+
+.hero-section p {
+    color: rgba(58, 58, 58, 1);
+    font-style: SemiBold;
+    font-size: 16px;
+    font-weight: 600;
+    margin-right: 200px;
+}
+
+
+.camera-circle {
+    margin-top: -450px;
+}
+
+
+/* logos */
+
+.logos{
+    margin-top: 50px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.logos img{
+    margin-right: 80px;
+    cursor: pointer;
 }
